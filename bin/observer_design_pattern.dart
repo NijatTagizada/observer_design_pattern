@@ -6,7 +6,7 @@ void main(List<String> arguments) {
   Lights lights = Lights();
   Kettle kettle = Kettle();
 
-  /// Add our listeners
+  /// Add our observers to the list
   homeManager.addListener(lights);
   homeManager.addListener(kettle);
 

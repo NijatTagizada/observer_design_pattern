@@ -32,10 +32,12 @@ class HomeManager {
   /// Changeable data (state data)
   bool _atHome = false;
 
+  /// Add new observer to the list
   void addListener(Observer observer) {
     _observersList.add(observer);
   }
 
+  /// Remove observer from the list
   void removeListener(Observer observer) {
     _observersList.remove(observer);
   }
